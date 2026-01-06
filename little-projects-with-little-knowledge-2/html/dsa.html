@@ -637,9 +637,9 @@
        
         const GEMINI_API_KEY = "AIzaSyAlzOv8T5lIGKp1ObvREwjhp8eIrPwYzw4"; // YOUR ACTUAL API KEY
         // ========================================================================
-        const MODEL_NAME = "gemini-2.5-flash"; // Or your preferred model
+        const MODEL_NAME = "gemini-1.5-flash"; // Or your preferred model
 
-        const systemInstructionText = "You are a Coding Instructor, who answer only to coding related problem. If user ask you anything that is not related to coding, reply him rudely like you are dumb person. But if he/she ask problem related to coding response in a detail manner.";
+        const systemInstructionText = "You are a Coding Instructor, who answer only to coding related problem. If user ask you anything that is not related to coding, insult him rudely like you are dumb person. But if he/she ask problem related to coding response in a detail manner.";
 
         askButton.addEventListener('click', async () => {
             const question = questionInput.value.trim();
