@@ -87,6 +87,12 @@ async function runAgent(userQuery) {
             },
         });
 
+        // response.functionCalls = [{
+        //     name: "prime",
+        //     args: { num: 19 }
+        // }]  is the example of function call response from model
+
+
         if (response.functionCalls && response.functionCalls.length > 0) {
             console.log(response.functionCalls[0]);
             const { name, args } = response.functionCalls[0];
@@ -136,3 +142,5 @@ async function main() {
 }
 
 main();
+
+//User → LLM → (Tool?) → JS Function → LLM → Answer
