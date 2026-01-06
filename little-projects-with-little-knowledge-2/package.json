@@ -1,0 +1,16 @@
+{
+  "name": "little-projects-with-little-knowledge-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dsa.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^1.34.0",
+    "dotenv": "^17.2.3",
+    "readline-sync": "^1.4.10"
+  }
+}
